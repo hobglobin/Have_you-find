@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_part4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.luizfilipeferreira.myapplication.Part4">
+
+    <TextView
+        android:text="Qual o nome do sistema de encriptação nazista conhecido pela sua eficiência durante a segunda guerra mundial?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:textAppearance="@style/TextAppearance.AppCompat" />
+
+    <Button
+        android:text="Enigma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="42dp"
+        android:id="@+id/Button6" />
+
+    <Button
+        android:text="Reich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button9"
+        android:layout_below="@+id/Button8"
+        android:layout_alignLeft="@+id/Button8"
+        android:layout_alignStart="@+id/Button8"
+        android:layout_marginTop="51dp" />
+
+    <Button
+        android:text="Albus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Button7"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/Button6"
+        android:layout_alignLeft="@+id/Button6"
+        android:layout_alignStart="@+id/Button6" />
+
+    <Button
+        android:text="Puzzle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:id="@+id/Button8"
+        android:layout_below="@+id/Button7"
+        android:layout_alignLeft="@+id/Button7"
+        android:layout_alignStart="@+id/Button7" />
+</RelativeLayout>
